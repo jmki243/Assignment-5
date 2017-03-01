@@ -53,12 +53,6 @@ li:active {
     color: black;
 }
 
-img {
-  position: fixed;
-  top: 0;
-  margin-left: 650px;
-  width: 5%;
-}
 </style>
   <ul>
   <li><a href="../index.html">Home</a></li>
@@ -67,11 +61,17 @@ img {
   <li style="float:right"><a class="active" href="Info.html">Info</a></li>
 </ul>
 
-</head>
-
 <header>
     <figure>
-        <img src="../logo.png"/>
+        <style>
+          img {
+            position: fixed;
+            top: 0;
+            margin-left: 650px;
+            width: 5%;
+          }
+        </style>
+        <img src="logo.png"/>
     </figure>
 </header>
 
