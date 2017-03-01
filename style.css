@@ -1,9 +1,6 @@
-h5 {
-    text-align: center;
-}
-
-hr {color:grey;}
-p {margin-left:20px;}
 body {
-background-image:url("Freeside_sign");
+  background: #000 url(Freeside_signs.jpg) repeat center center;
+}
+#Wrapper {
+  background: url(Asset 1.png) no-repeat center top;
 }
