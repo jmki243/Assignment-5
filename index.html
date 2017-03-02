@@ -67,6 +67,25 @@ h2 {
 body {
   z-index: 1;
 }
+
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h1 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+h3 {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+}
 </style>
   <ul>
   <li><a class="active" href="index.html">Home</a></li>
@@ -89,7 +108,15 @@ body {
         <h6><img src="logo.png" alt="Logo" style="width:70px;height:70px;"/></h6>
     </figure>
 
-<h2><img id="banner" src="Freeside_signs.jpg" alt="Banner Image"/></h2>
+    <div class="image">
+
+          <img src="Freeside_signs.jpg" alt="Banner Image" />
+
+          <h1>THE ATOMIC WRANGLER</h1>
+          <h3>Bar and Casino</h3>
+
+    </div>
+<!--<h2><img id="banner" src="Freeside_signs.jpg" alt="Banner Image"/></h2>
 
 <body>
   <header class="container-fluid">
@@ -99,5 +126,5 @@ body {
     </header>
   </header>
 
-</body>
+</body>-->
 </html>
