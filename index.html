@@ -71,6 +71,30 @@ body {
   z-index: 1;
 }
 
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
+h2 span {
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+h2 span.spacer {
+   padding:0 5px;
+}
 
 </style>
   <ul>
@@ -94,6 +118,13 @@ body {
         <h6><img src="logo.png" alt="Logo" style="width:70px;height:70px;"/></h6>
     </figure>
 
+    <div class="image">
+
+          <img src="Freeside_signs.jpg" alt="Freeside Sign" />
+
+          <h2><span>A Movie in the Park:<span class='spacer'></span><br /><span class='spacer'></span>Kung Fu Panda</span></h2>
+
+    </div>
 
 <h2><img id="banner" src="Freeside_signs.jpg" alt="Banner Image"/></h2>
 
