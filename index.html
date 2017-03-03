@@ -73,7 +73,18 @@ h3 {
   z-index: 1000;
 }
 
+.image {
+   position: relative;
+   width: 100%; /* for IE 6 */
 }
+
+h2 {
+   position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+}
+
 </style>
 
   <ul>
@@ -97,14 +108,16 @@ h3 {
         <h6><img src="logo.png" alt="Logo" style="width:70px;height:70px;"><a href="index.html"/></a></h6>
     </figure>
 
-          <img src="Freeside_signs.jpg" alt="AW Sign" />
-
 
 <body>
-    <header>
-      <h1>THE ATOMIC WRANGLER</h1>
-      <h3>Bar and Casino</h3>
-    </header>
+
+  <div class="image">
+
+        <img src="images/3754004820_91a5c238a0.jpg" alt="" />
+
+        <h2>A Movie in the Park:<br />Kung Fu Panda</h2>
+
+  </div>
 
 </body>
 </html>
