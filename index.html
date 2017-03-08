@@ -74,61 +74,14 @@ h6 {
 h1 {
   font-size: 90px;
   font-family: monospace;
+  display: inline;
+  background-color: black;
+  padding: 0.5em 1em;
+  box-decoration-break: clone;
 }
 
 h3 {
   font-style: italic;
-}
-
-.module {
-  background: url(Freeside_signs.jpg);
-  background-attachment: fixed;
-  width: 400px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  margin: 20px;
-}
-.module > header {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10px;
-  background: inherit;
-  background-attachment: fixed;
-  overflow: hidden;
-}
-.module > header::before {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: 0;
-  width: 200%;
-  height: 200%;
-  background: inherit;
-  background-attachment: fixed;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
-}
-.module > header::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.25)
-}
-.module > header > h1 {
-  margin: 0;
-  color: white;
-  position: relative;
-  z-index: 1;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 </style>
@@ -157,14 +110,11 @@ h3 {
 
   <body>
 
-  <div class="module">
     <header class="container-fluid">
       <header class="jumbotron text-center">
         <h1>THE ATOMIC WRANGLER</h1><br><h3>Bar and Casino</h3>
       </header>
     </header>
-  </div>
-
 
   </body>
 
