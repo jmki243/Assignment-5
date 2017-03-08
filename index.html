@@ -85,8 +85,7 @@ h3 {
 }
 
 .button {
-  z-index: 4500
-  background-color: #555555;
+  background-color: #555555
   border: none;
   color: white;
   padding: 15px 32px;
@@ -94,7 +93,18 @@ h3 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 8px;
 }
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 
 </style>
 
